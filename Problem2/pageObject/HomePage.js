@@ -1,10 +1,25 @@
 
+var wait = require('./../utility/helper.js');
 
-var eBayHomepage = function() {
+
+
+const inputKeyword = element(by.id('gh-ac'));
+const searchButton = element(by.id('gh-btn'));
+
+
+var Homepage = function() {
 
 this.get = function() {
-    browser.get('https://www.ebay.com.au/');
+    return browser.get('https://www.ebay.com.au/');
+  };
+
+this.search = function(keyword) {
+
+	wait.untilDisplay(inputKeyword, 5000);
+	inputKeyword.sendKeys(keyword);
+	return searchButton.click();
   };
 
 };
-module.exports = eBayHomepage
+module.exports = new Homepage();
+
