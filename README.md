@@ -1,13 +1,21 @@
 
-Software Required:
-Node.js
-NPM
-Jdk 
+#####Software Required:
 
-Before run script, install dependencies and start webdriver-manager:
-npm install
-webdriver-manager update/start
+*Node.js
 
-Run script:
-protractor config.js
+*NPM
+
+*Jdk 
+
+----
+#####Before run script, install dependencies and start webdriver-manager:
+
+*npm install
+
+*webdriver-manager update/start
+
+----
+#####Run script:
+
+*protractor config.js
 
