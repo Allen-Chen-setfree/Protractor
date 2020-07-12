@@ -29,7 +29,7 @@ this.inputPostalAdd = function() {
 
           firstName.sendKeys('test1');
           lastName.sendKeys('test2');
-          addressLine1.sendKeys('test3');
+          addressLine1.sendKeys('1122');
           stateOrProvince.click();
           Victoria_option.click();
           city.sendKeys('test');
