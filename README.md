@@ -1,25 +1,21 @@
-# NAB
 
-Solution for Problem 2:
+##### Software Required:
 
-1. Use Protractor Cucumber Framework to separate test scenarios (features) from test implementation code (steps)
-2. Use page object model to seperate business implementation code from web objects
-3. Seperate business implementation code from user data (postal address, payment details)
+* Node.js
 
-Software versions:
+* NPM
 
-Node.js v13.6.0
+* Jdk 
 
-NPM v6.13.6
+----
+##### Before run script, install dependencies and start webdriver-manager:
 
--- chai@4.2.0
+* npm install
 
--- chai-as-promised@7.1.1
+* webdriver-manager update/start
 
--- cucumber@6.0.5
+----
+##### Run script:
 
--- protractor@5.4.2
+* protractor config.js
 
--- protractor-cucumber-framework@6.2.0
-
--- selenium-server-standalone-jar@3.8.1
